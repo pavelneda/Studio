@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="http://fonts.cdnfonts.com/css/tahu" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/proxima-nova-2" rel="stylesheet">
+    <title>Studio</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="header__logo">
+            Studio
+        </a>
+        <nav>
+            <ul class="header__navigation">
+                <li><a href="#">Individuals</a></li>
+                <li><a href="#">Companies</a></li>
+                <li><a href="#">The Studio</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="header__btn default__btn">
+            Book Now
+        </a>
+        <ul class="header__social">
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-yelp"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+        </ul>
+    </header> <!-- /header -->
+
+    <section class="promo">
+        <div class="container">
+            <h1 class="promo__title">
+                Fast. Simple.
+                Professional
+                Headshots.
+            </h1>
+            <p class="promo__text">
+                #1 Rated Headshot Photographers.
+            </p>
+            <a href="#" class="promo__btn default__btn">
+                Browse Sessions
+            </a>
+        </div> <!-- /container -->
+    </section> <!-- /promo -->
+
+    <section class="sessions">
+        <div class="session__item">
+            <div class="session__icon">
+                <i class="fa-regular fa-user"></i>
+            </div>
+            <h2 class="session__title">Individual Sessions</h2>
+            <ol class="sessions__names">
+                <li class="sessions__name">Studio Sessions</li>
+                <li class="sessions__name">Outdoor Sessions</li>
+                <li class="sessions__name">In-Office Sessions</li>
+            </ol>
+            <a href="#" class="sessions__btn default__btn">
+                See More
+            </a>
+        </div>
+
+        <div class="session__item">
+            <div class="session__icon">
+                <i class="fa-solid fa-users"></i>
+            </div>
+            <h2 class="session__title">Companies Sessions</h2>
+            <ol class="sessions__names">
+                <li class="sessions__name">Group On-Sites</li>
+                <li class="sessions__name">Corporate Accounts</li>
+            </ol>
+            <a href="#" class="sessions__btn default__btn">
+                See More
+            </a>
+        </div>
+    </section> <!-- /sessions -->
+
+    <section class="map">
+        <div class="container">
+            <form action="/" class="map__search" name="studio">
+                <h2 class="map__search-title">
+                    Studio Near Me
+                </h2>
+                <label for="zipCode" class="map__search-text">
+                    Search for your professional by zip code:
+                </label>
+                <input type="number" name="zipCode" id="zipCode" class="map__search-zip"><button name="studioBtn" class="map__search-btn default__btn" type="submit">Search</button>
+            </form>
+        </div>
+    </section> <!-- /map -->
+
+    <section class="services">
+        <div class="container">
+            <div class="services__top">
+                <h2 class="services__title">
+                    Our professional services
+                </h2>
+                <ul class="services__names">
+                    <li class="opacity1 black">All</li>
+                    <li>Modeling</li>
+                    <li>Acting</li>
+                    <li>Corporate</li>
+                    <li>Business</li>
+                    <li>Professional</li>
+                    <li>Group</li>
+                    <li>Company</li>
+                    <li>Officer</li>
+                </ul>
+            </div>
+            <div class="services__content">
+                <div class="services__grid">
+                    <div class="services__grid-item">
+                        <img src="img/services-1.jpg" alt="">
+                        <div class="services__check opacity1">
+                            <div class="default__btn">
+                                Company
+                            </div>
+                            <a href="#">Check Service <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                    <div class="services__grid-item">
+                        <img src="img/services-2.jpg" alt="">
+                        <div class="services__check">
+                            <div class="default__btn">
+                                Company
+                            </div>
+                            <a href="#">Check Service <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                    <div class="services__grid-item">
+                        <img src="img/services-3.jpg" alt="">
+                        <div class="services__check">
+                            <div class="default__btn">
+                                Company
+                            </div>
+                            <a href="#">Check Service <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                    <div class="services__grid-item">
+                        <img src="img/services-4.jpg" alt="">
+                        <div class="services__check">
+                            <div class="default__btn">
+                                Company
+                            </div>
+                            <a href="#">Check Service <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                    <div class="services__grid-btn btn-prev"><i class="fa-solid fa-arrow-left-long"></i></div>
+                    <div class="services__grid-btn btn-next"><i class="fa-solid fa-arrow-right-long"></i></div>
+                </div>
+                <div class="swiper services_view ">
+                    <div class="swiper-wrapper">
+                        <img class="swiper-slide" src="img/services-1.jpg" alt="">
+                        <img class="swiper-slide" src="img/services-2.jpg" alt="">
+                        <img class="swiper-slide" src="img/services-3.jpg" alt="">
+                        <img class="swiper-slide" src="img/services-4.jpg" alt="">
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+            </div>
+        </div> <!-- /container -->
+    </section> <!-- /services -->
+
+    <section class="headshots">
+        <div class="container">
+            <div class="headshots__top">
+                <div class="headshots__info">
+                    <h2 class="headshots__info-title">
+                        Why are headshots important?
+                    </h2>
+                    <p class="headshots__info-text">
+                        It may not seem indispensable, but lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Donec nisi enim, finibus non malesuada vitae, porttitor vitae enim. Nulla eget fringilla libero,
+                        ut ultricies neque. Morbi id aliquet sem. Ut mattis diam sit amet orci faucibus dignissim.
+                        Aliquam erat volutpat. Curabitur eu efficitur quam.
+                    </p>
+                </div>
+                <div class="headshots__tips">
+                    <h2 class="headshots__tips-title">
+                        5 Useful Tips
+                    </h2>
+                    <div class="heaheadshots__tips-items">
+                        <p class="headshots__tips-item icon-1">
+                            Go professional, it’s worth it, because cheap looks cheap.
+                        </p>
+                        <p class="headshots__tips-item icon-2">
+                            Make sure it looks like you, not like you want to be.
+                        </p>
+                        <p class="headshots__tips-item icon-3">
+                            It’s all about the eyes and what’s behind them.
+                        </p>
+                        <p class="headshots__tips-item icon-4">
+                            Control framing, lighting & background.
+                        </p>
+                        <p class="headshots__tips-item icon-5">
+                            Stay chill with clothing & makeup, you must be you.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="headshots__bottom">
+                <h2 class="headshots__bottom-title">
+                    Professional Headshot Services
+                </h2>
+                <p class="headshots__bottom-text">
+                    Studio Inc is maecenas vulputate, sem at auctor vulputate, elit nunc sagittis ligula, vitae pulvinar
+                    metus elit in ante. Aenean tincidunt erat ac ante placerat facilisis. Fusce sed ligula tortor.
+                    Quisque non dignissim erat. Vestibulum ante ipsum primis in faucibus.<br><br>
+                    Covid-19 Update: We are open for studio, office, and outdoor sessions. For more information<br>on
+                    our safety procedures, visit <a href="#">Studio Covid-19 Guidelines.</a>
+                </p>
+            </div>
+        </div> <!-- /container -->
+    </section> <!-- /headshots -->
+
+    <section class="reviews">
+        <div class="container">
+            <h2 class="reviews__title">
+                Clients love us
+            </h2>
+            <p class="reviews__subtitle">
+                We have formed true friendships.
+            </p>
+            <div class="reviews__swiper swiper">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide reviews__item">
+                        <img src="img/review-1.jpg" alt="">
+                        <div>
+                            <h3 class="reviews__item-name">
+                                Andrea Mcconnell
+                            </h3>
+                            <div class="reviews__item-rating">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="reviews__item-text">
+                            Studio is exactly what our business has been lacking. I will recommend them to everyone.
+                        </p>
+                    </div>
+                    <div class="swiper-slide reviews__item">
+                        <img src="img/review-2.jpg" alt="">
+                        <div>
+                            <h3 class="reviews__item-name">
+                                Marvin Luna
+                            </h3>
+                            <div class="reviews__item-rating">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="reviews__item-text">
+                            Studio impressed me on multiple levels. Studio is worth much more than offered.
+                        </p>
+                    </div>
+                    <div class="swiper-slide reviews__item">
+                        <img src="img/review-3.jpg" alt="">
+                        <div>
+                            <h3 class="reviews__item-name">
+                                Shanai Haas
+                            </h3>
+                            <div class="reviews__item-rating">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="reviews__item-text">
+                            Studio saved my job interview. Keep up with the excellent work!
+                        </p>
+                    </div>
+                    <div class="swiper-slide reviews__item">
+                        <img src="img/review-1.jpg" alt="">
+                        <div>
+                            <h3 class="reviews__item-name">
+                                Andrea Mcconnell
+                            </h3>
+                            <div class="reviews__item-rating">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="reviews__item-text">
+                            Studio is exactly what our business has been lacking. I will recommend them to everyone.
+                        </p>
+                    </div>
+                    <div class="swiper-slide reviews__item">
+                        <img src="img/review-2.jpg" alt="">
+                        <div>
+                            <h3 class="reviews__item-name">
+                                Marvin Luna
+                            </h3>
+                            <div class="reviews__item-rating">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="reviews__item-text">
+                            Studio impressed me on multiple levels. Studio is worth much more than offered.
+                        </p>
+                    </div>
+                    <div class="swiper-slide reviews__item">
+                        <img src="img/review-3.jpg" alt="">
+                        <div>
+                            <h3 class="reviews__item-name">
+                                Shanai Haas
+                            </h3>
+                            <div class="reviews__item-rating">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="reviews__item-text">
+                            Studio saved my job interview. Keep up with the excellent work!
+                        </p>
+                    </div>
+                    <div class="swiper-slide reviews__item">
+                        <img src="img/review-1.jpg" alt="">
+                        <div>
+                            <h3 class="reviews__item-name">
+                                Andrea Mcconnell
+                            </h3>
+                            <div class="reviews__item-rating">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="reviews__item-text">
+                            Studio is exactly what our business has been lacking. I will recommend them to everyone.
+                        </p>
+                    </div>
+                    <div class="swiper-slide reviews__item">
+                        <img src="img/review-2.jpg" alt="">
+                        <div>
+                            <h3 class="reviews__item-name">
+                                Marvin Luna
+                            </h3>
+                            <div class="reviews__item-rating">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="reviews__item-text">
+                            Studio impressed me on multiple levels. Studio is worth much more than offered.
+                        </p>
+                    </div>
+                    <div class="swiper-slide reviews__item">
+                        <img src="img/review-3.jpg" alt="">
+                        <div>
+                            <h3 class="reviews__item-name">
+                                Shanai Haas
+                            </h3>
+                            <div class="reviews__item-rating">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="reviews__item-text">
+                            Studio saved my job interview. Keep up with the excellent work!
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div> <!-- /container -->
+    </section> <!-- /reviews -->
+
+    <section class="about">
+        <div class="container">
+            <div class="about__inner">
+                <h2 class="about__title">
+                    Fast, convenient & friendly professional headshot sessions.
+                </h2>
+                <a href="#" class="about__btn default__btn">
+                    About Us
+                </a>
+            </div>
+        </div> <!-- /container -->
+    </section> <!-- /about -->
+
+    <section class="blog">
+        <div class="container">
+            <h2 class="blog__title">
+                Our Blog
+            </h2>
+            <p class="blog__subtitle">
+                Check our latest news.
+            </p>
+            <div class="blog__content">
+                <div class="blog__item">
+                    <div class="blog__item-img">
+                        <img src="img/blog-1.jpg" alt="">
+                    </div>
+                    <div class="blog__item-inner">
+                        <h3 class="blog__item-title">
+                            all about headshots inside professional studios
+                        </h3>
+                        <div class="blog__item-bottom">
+                            <div class="blog__item-comments">
+                                <i class="fa-regular fa-comment"></i> 15 Comments
+                            </div>
+                            <div class="blog__item-data">
+                                June, 2020
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog__item">
+                    <div class="blog__item-img">
+                        <img src="img/blog-2.jpg" alt="">
+                    </div>
+                    <div class="blog__item-inner">
+                        <h3 class="blog__item-title">
+                            How do professionals edit their photos and What photo editing software they use
+                        </h3>
+                        <div class="blog__item-bottom">
+                            <div class="blog__item-comments">
+                                <i class="fa-regular fa-comment"></i> 9 Comments
+                            </div>
+                            <div class="blog__item-data">
+                                July, 2020
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog__item">
+                    <div class="blog__item-img">
+                        <img src="img/blog-3.jpg" alt="">
+                    </div>
+                    <div class="blog__item-inner">
+                        <h3 class="blog__item-title">
+                            best Courses In Photography
+                            from home
+                        </h3>
+                        <div class="blog__item-bottom">
+                            <div class="blog__item-comments">
+                                <i class="fa-regular fa-comment"></i> 17 Comments
+                            </div>
+                            <div class="blog__item-data">
+                                August, 2020
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog__btn default__btn">
+                See All Posts
+            </div>
+        </div> <!-- /container -->
+    </section> <!-- /blog -->
+
+    <footer>
+        <div class="container">
+            <div class="footer__inner">
+                <div>
+                    <a href="#" class="footer__logo">
+                        Studio
+                    </a>
+                </div>
+                <div class="footer__item footer__item-links">
+                    <div class="footer__item-title">
+                        Links
+                    </div>
+                    <div><a href="#" class="footer__item-line">Individuals</a></div>
+                    <div><a href="#" class="footer__item-line">Companies</a></div>
+                    <div><a href="#" class="footer__item-line">The Studio</a></div>
+                    <div><a href="#" class="footer__item-line">About Us</a></div>
+                    <div><a href="#" class="footer__item-line">Blog</a></div>
+                </div>
+                <div class="footer__item footer__item-resources">
+                    <div class="footer__item-title">
+                        Resources
+                    </div>
+                    <div><a href="#" class="footer__item-line"> Lorem ipsum dolor sit amet, consectetur adipis.</a>
+                    </div>
+                    <div><a href="#" class="footer__item-line">Donec nisi enim, finibus non malesuada vitae.</a></div>
+                    <div><a href="#" class="footer__item-line">Nulla eget fringilla libero, ut ultricies neque.</a>
+                    </div>
+                    <div><a href="#" class="footer__item-line">Morbi id aliquet sem. Ut mattis diam sit amet.</a></div>
+                    <div><a href="#" class="footer__item-line">Curabitur eu efficitur quam. Fusce interdum sem.</a>
+                    </div>
+                </div>
+                <div class="footer__item footer__item-studio">
+                    <div class="footer__item-title">
+                        Studio Inc
+                    </div>
+                    <div>
+                        <div class="footer__item-line">125 Southern Way</div>
+                    </div>
+                    <div>
+                        <div class="footer__item-line">EH23 1SZ</div>
+                    </div>
+                    <div>
+                        <div class="footer__item-line">North Middleton, UK</div>
+                    </div>
+                </div>
+                <div class="footer__item footer__item-contact">
+                    <div class="footer__item-title">
+                        Contact
+                    </div>
+                    <div>
+                        <a href="tel:(123)3453781" class="footer__item-line">(123) 345 3781</a>
+                    </div>
+                    <div>
+                        <div class="footer__item-line">
+                            <span>smile@studio-inc.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__item footer__item-social ">
+                    <div><a href="#" class="footer__item-line"><span>Facebook</span></a>
+                    </div>
+                    <div><a href="#" class="footer__item-line"><span>Instagram</span></a></div>
+                    <div><a href="#" class="footer__item-line"><span>Linkedin</span></a></div>
+                    <div><a href="#" class="footer__item-line"><span>Google Rating</span></a></div>
+                    <div><a href="#" class="footer__item-line"><span>Yelp</span></a>
+                    </div>
+
+                </div>
+            </div>
+        </div> <!-- /container -->
+    </footer> <!-- /footer -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/eb125d246d.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
