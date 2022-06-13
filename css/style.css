@@ -1,3 +1,21 @@
+@font-face {
+    font-family: "Tahu!";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Tahu!"),
+         url("../fonts/Tahu!.ttf") format("truetype")
+}
+@font-face {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Proxima Nova"),
+         url("https://cdn.jsdelivr.net/npm/font-proxima-nova@1.0.1/fonts/ProximaNova-RegularIt.ttf") format("truetype")
+}
+
+
+
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -39,9 +57,10 @@ input::-webkit-inner-spin-button {
 /*Container*/
 .container {
     width: 100%;
-    max-width: 1600px;
+    max-width: 1620px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 30px;
+    overflow: hidden;
 }
 
 
@@ -57,6 +76,7 @@ input::-webkit-inner-spin-button {
     color: white;
     border: #ff3c2d 2px solid;
     transition: all 0.2s linear;
+    font-weight: 400;
 }
 
 .default__btn:hover {
@@ -72,6 +92,7 @@ input::-webkit-inner-spin-button {
 .black {
     color: #222222 !important;
 }
+
 
 /*Header*/
 
@@ -350,6 +371,16 @@ header li {
 .services__names {
     color: #ababab;
     padding: 0;
+    white-space: nowrap;
+    padding: 0 6px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.services__names::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
 }
 
 .services__names li {
@@ -411,6 +442,9 @@ header li {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    max-height: 860px;
+    position: relative;
+    padding-bottom: 40px;
 }
 
 .services__grid-item {
@@ -442,6 +476,12 @@ header li {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
     margin-top: -10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.services__grid-btn.btn-next{
+    right: 4%;
 }
 
 .services__check {
@@ -613,6 +653,11 @@ header li {
     padding: 50px 77px 60px;
     max-width: 1060px;
     margin-left: 113px;
+    margin-right: 350px;
+}
+
+.headshots__info{
+    margin-right: 70px;
 }
 
 .headshots__bottom-title {
@@ -655,6 +700,8 @@ header li {
 
 .reviews__item {
     max-width: 490px;
+    position: relative;
+
 }
 
 .reviews__item img {
@@ -698,8 +745,6 @@ header li {
     font-style: italic;
     text-align: start;
     margin: auto;
-
-    position: relative;
 }
 
 .reviews__item-text::before {
@@ -711,8 +756,8 @@ header li {
 
     z-index: -1;
     position: absolute;
-    left: -67px;
-    bottom: 15px;
+    left: -25px;
+    bottom: 18px;
 }
 
 .reviews__swiper {
@@ -845,6 +890,15 @@ header li {
     position: absolute;
     left: 25px;
     bottom: 25px;
+
+    
+}
+
+.blog__item-comments img{
+    display: inline-block;
+    width: 20px;
+    transform: translateY(25%);
+    margin-right: 9px;
 }
 
 .blog__item-data {
@@ -894,21 +948,18 @@ footer {
 
 .footer__item-studio .footer__item-line {
     padding-left: 28px;
-    position: relative;
 }
 
-.footer__item-studio div:nth-child(2) div::before {
-    font-family: "Font Awesome 6 Free";
-    content: "\f3c5";
-    font-weight: 700;
-    position: absolute;
-    left: 1px;
-    top: -2px;
+.footer__item-studio div:nth-child(2) div{
+    background-image: url(../img/icon-location.png);
+    background-repeat: no-repeat;
+    background-position: 1px 40%;
 }
 
 .footer__item-resources a {
     padding-left: 33px;
     position: relative;
+    
 }
 
 .footer__item-resources a::after {
@@ -921,13 +972,15 @@ footer {
     color: #626262;
 }
 
+
 .footer__item-contact .footer__item-line {
     font-size: 30px;
     line-height: 53px;
 }
 
-.footer__item-line span {
+.footer__item-line a {
     border-bottom: #ff3c2d 1px solid;
+    color: white;
 }
 
 .footer__item-contact .footer__item-title {
@@ -977,3 +1030,19 @@ footer {
     opacity: 1;
 }
 
+.footer__copyright{
+    border-top: #393939 1px solid;
+    text-align: center;
+    color: #4e4e4e;
+    line-height: 67px;
+}
+
+.footer__copyright-inner{
+    position: relative;
+}
+
+.footer__copyright a{
+position: absolute;
+right: 0;
+color: #4e4e4e;
+}

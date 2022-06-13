@@ -9,13 +9,12 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="http://fonts.cdnfonts.com/css/tahu" rel="stylesheet">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
         rel="stylesheet">
-    <link href="http://fonts.cdnfonts.com/css/proxima-nova-2" rel="stylesheet">
     <title>Studio</title>
 </head>
 
@@ -44,6 +43,9 @@
             <li><a href="#"><i class="fa-brands fa-yelp"></i></a></li>
             <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
         </ul>
+        <div class="header__burger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </header> <!-- /header -->
 
     <section class="promo">
@@ -102,7 +104,8 @@
                 <label for="zipCode" class="map__search-text">
                     Search for your professional by zip code:
                 </label>
-                <input type="number" name="zipCode" id="zipCode" class="map__search-zip"><button name="studioBtn" class="map__search-btn default__btn" type="submit">Search</button>
+                <input type="text" name="zipCode" id="zipCode" class="map__search-zip"><button name="studioBtn"
+                    class="map__search-btn default__btn" type="submit">Search</button>
             </form>
         </div>
     </section> <!-- /map -->
@@ -226,7 +229,7 @@
                     Studio Inc is maecenas vulputate, sem at auctor vulputate, elit nunc sagittis ligula, vitae pulvinar
                     metus elit in ante. Aenean tincidunt erat ac ante placerat facilisis. Fusce sed ligula tortor.
                     Quisque non dignissim erat. Vestibulum ante ipsum primis in faucibus.<br><br>
-                    Covid-19 Update: We are open for studio, office, and outdoor sessions. For more information<br>on
+                    Covid-19 Update: We are open for studio, office, and outdoor sessions. For more information on
                     our safety procedures, visit <a href="#">Studio Covid-19 Guidelines.</a>
                 </p>
             </div>
@@ -425,7 +428,7 @@
                         </h3>
                         <div class="blog__item-bottom">
                             <div class="blog__item-comments">
-                                <i class="fa-regular fa-comment"></i> 15 Comments
+                                <img src="img/icon-comment.png" alt="">15 Comments
                             </div>
                             <div class="blog__item-data">
                                 June, 2020
@@ -443,7 +446,7 @@
                         </h3>
                         <div class="blog__item-bottom">
                             <div class="blog__item-comments">
-                                <i class="fa-regular fa-comment"></i> 9 Comments
+                                <img src="img/icon-comment.png" alt="">9 Comments
                             </div>
                             <div class="blog__item-data">
                                 July, 2020
@@ -462,7 +465,7 @@
                         </h3>
                         <div class="blog__item-bottom">
                             <div class="blog__item-comments">
-                                <i class="fa-regular fa-comment"></i> 17 Comments
+                                <img src="img/icon-comment.png" alt="">17 Comments
                             </div>
                             <div class="blog__item-data">
                                 August, 2020
@@ -531,7 +534,7 @@
                     </div>
                     <div>
                         <div class="footer__item-line">
-                            <span>smile@studio-inc.com</span>
+                            <a href="mailto:smile@studio-inc.com">smile@studio-inc.com</a>
                         </div>
                     </div>
                 </div>
@@ -543,13 +546,21 @@
                     <div><a href="#" class="footer__item-line"><span>Google Rating</span></a></div>
                     <div><a href="#" class="footer__item-line"><span>Yelp</span></a>
                     </div>
-
                 </div>
             </div>
         </div> <!-- /container -->
+        <div class="footer__copyright">
+            <div class="container">
+                <div class="footer__copyright-inner">
+                    © 2020. All rights reserved.
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
     </footer> <!-- /footer -->
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/eb125d246d.js" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
