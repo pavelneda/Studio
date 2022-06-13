@@ -379,8 +379,10 @@ header li {
 }
 
 .services__names::-webkit-scrollbar { /* WebKit */
+    -webkit-appearance: none;
     width: 0;
     height: 0;
+    display: none;
 }
 
 .services__names li {
@@ -807,6 +809,7 @@ header li {
     line-height: 55px;
     max-width: 815px;
     color: white;
+    margin-right: 60px;
 }
 
 .about__btn {

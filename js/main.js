@@ -197,9 +197,6 @@ function onMouseUp(e){
   setTimeout(()=>movement = false, 10);
 }
 
-function onMouseClick(e, li){
-  
-}
 
 function onDragStart(e){
   e.preventDefault();
